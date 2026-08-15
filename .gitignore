@@ -1,0 +1,7 @@
+# The Old Codease that shall ba used as a prime reference
+# for the new codebase recreation Nothing under this folder
+# should be included in the new codebase
+/old-codebase
+
+# The local rulse of agents in antigravity
+/.agents
