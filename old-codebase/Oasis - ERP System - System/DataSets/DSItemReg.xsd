@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="OasisERP_MahadiConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OasisERP_MahadiConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OasisERPSystem.My.MySettings.GlobalReference.Default.OasisERP_MahadiConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ItemsRegistry" msprop:Generator_TableClassName="ItemsRegistryDataTable" msprop:Generator_TableVarName="tableItemsRegistry" msprop:Generator_TablePropName="ItemsRegistry" msprop:Generator_RowDeletingName="ItemsRegistryRowDeleting" msprop:Generator_RowChangingName="ItemsRegistryRowChanging" msprop:Generator_RowEvHandlerName="ItemsRegistryRowChangeEventHandler" msprop:Generator_RowDeletedName="ItemsRegistryRowDeleted" msprop:Generator_UserTableName="ItemsRegistry" msprop:Generator_RowChangedName="ItemsRegistryRowChanged" msprop:Generator_RowEvArgName="ItemsRegistryRowChangeEvent" msprop:Generator_RowClassName="ItemsRegistryRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SNo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnSNo" msprop:Generator_ColumnPropNameInRow="SNo" msprop:Generator_ColumnPropNameInTable="SNoColumn" msprop:Generator_UserColumnName="SNo" type="xs:int" />
+              <xs:element name="WPrice" msprop:Generator_ColumnVarNameInTable="columnWPrice" msprop:Generator_ColumnPropNameInRow="WPrice" msprop:Generator_ColumnPropNameInTable="WPriceColumn" msprop:Generator_UserColumnName="WPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="RPrice" msprop:Generator_ColumnVarNameInTable="columnRPrice" msprop:Generator_ColumnPropNameInRow="RPrice" msprop:Generator_ColumnPropNameInTable="RPriceColumn" msprop:Generator_UserColumnName="RPrice" type="xs:double" minOccurs="0" />
+              <xs:element name="MinLevel" msprop:Generator_ColumnVarNameInTable="columnMinLevel" msprop:Generator_ColumnPropNameInRow="MinLevel" msprop:Generator_ColumnPropNameInTable="MinLevelColumn" msprop:Generator_UserColumnName="MinLevel" type="xs:double" minOccurs="0" />
+              <xs:element name="companyName" msprop:Generator_ColumnVarNameInTable="columncompanyName" msprop:Generator_ColumnPropNameInRow="companyName" msprop:Generator_ColumnPropNameInTable="companyNameColumn" msprop:Generator_UserColumnName="companyName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Item" msprop:Generator_ColumnVarNameInTable="columnItem" msprop:Generator_ColumnPropNameInRow="Item" msprop:Generator_ColumnPropNameInTable="ItemColumn" msprop:Generator_UserColumnName="Item" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="250" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GenericName" msprop:Generator_ColumnVarNameInTable="columnGenericName" msprop:Generator_ColumnPropNameInRow="GenericName" msprop:Generator_ColumnPropNameInTable="GenericNameColumn" msprop:Generator_UserColumnName="GenericName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Pack" msprop:Generator_ColumnVarNameInTable="columnPack" msprop:Generator_ColumnPropNameInRow="Pack" msprop:Generator_ColumnPropNameInTable="PackColumn" msprop:Generator_UserColumnName="Pack" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="500" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:ItemsRegistry" />
+      <xs:field xpath="mstns:SNo" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

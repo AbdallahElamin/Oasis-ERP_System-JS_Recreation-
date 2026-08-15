@@ -1,0 +1,845 @@
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChequesManagement.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAccountsStatement.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheet.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCompositeItems.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmListItemsGroups.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmPayVoucher.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQueryInventory.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReceiptVoucher.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStockTransactions.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesDistributors.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRegions.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRepresentatives.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddGroupName.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesDistributors.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRegions.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRepresentatives.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChequesManagement.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAccountsStatement.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheet.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCompositeItems.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddGroupName.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmListItemsGroups.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmPayVoucher.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQueryInventory.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReceiptVoucher.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStockTransactions.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersArchive.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFinRegestration.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchStudID.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStdFinanceStatment.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStudantReceiptVoucher.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+E:\Task\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMedical.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRegions.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddGroupName.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQueryInventory.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStockTransactions.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+L:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddGroupName.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMedical.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesRegions.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQueryInventory.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStockTransactions.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Oasis\Desktop\LAST\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\MyBrowser.dll
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.read.1.tlog
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.write.1.tlog
+L:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+L:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+L:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+L:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+L:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\MyBrowser.dll
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.read.1.tlog
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.write.1.tlog
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\MyBrowser.dll
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegister.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+C:\Users\aymenread\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+K:\Mahadi\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+K:\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+K:\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+K:\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+C:\Users\Oasis\Desktop\Mahadi\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Mine\Systems\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+L:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+K:\Oasis - ERP System\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+K:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+K:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+K:\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.read.1.tlog
+C:\Users\Oasis\Desktop\Oasis - ERP System\Oasis - ERP System - System\obj\Debug\ResGen.write.1.tlog
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\ResolveAssemblyReference.cache
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStorstatus.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\ResGen.read.1.tlog
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\s_new\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\ResGen.write.1.tlog
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbprojResolveAssemblyReference.cache
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStorstatus.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+E:\project\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbproj.GenerateResource.Cache
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbprojResolveAssemblyReference.cache
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStorstatus.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+D:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbproj.GenerateResource.Cache
+H:\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+H:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+H:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+H:\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\aymen\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\aymen\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\aymen\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\aymen\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStorstatus.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbproj.GenerateResource.Cache
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Form1.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddLevel.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddyear.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDepartmentEn.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmEditStaffProfile.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmJobDescAr.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmJobDescEn.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmHR.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\BarcodeLib.Barcode.CrystalReports.dll
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\zxing.dll
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\zxing.pdb
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\zxing.xml
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchEmpID.resources
+C:\Users\aymenread\Desktop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbprojResolveAssemblyReference.cache
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe.config
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.exe
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.pdb
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\Oasis - ERP System.xml
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\BarcodeLib.Barcode.CrystalReports.dll
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\zxing.pdb
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\bin\Debug\zxing.xml
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbprojResolveAssemblyReference.cache
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddRegions.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStorstatus.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmReplaceItem.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuantitativechange.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientEdit.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddStoreName.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionsStatesArea.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmReturndInvoice.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTransferItem.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddAccount.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmApprovingVouchers.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBalanceSheetLevels.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBillsArchive.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmBudget.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChartofAccounts.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmCheqClearingSystem.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmFixedAssets.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMainFin.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeGetBill.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakePayBill.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMakeVoucher.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSelectAccount.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmStatement.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmTrialBalance.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVoucherReverse.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmVouchersList.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminSalesMan.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmRegionStatesSetup.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAdminMedicalRepresentatives.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsAdd.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDisposeItems.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddItemsToStock.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmChangePassword.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientsRegistry.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmExpensesAnalysis.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoice.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmInvoicesArchive.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmItemsRegistry.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmClientClassification.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddCompany.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Form1.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmLogin.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmMain.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotation.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmQuotationArchive.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSalesReports.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchClientID.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmUsersMang.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.ReportViewer.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.Resources.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddLevel.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmAddyear.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmDepartmentEn.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmEditStaffProfile.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.FrmJobDescAr.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmJobDescEn.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmHR.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\OasisERPSystem.frmSearchEmpID.resources
+C:\Users\aymenread\Desktop\deskTop27-10-2024\DeskTop\Oasis - ERP Systemold1\Oasis - ERP System - System\obj\Debug\Oasis - ERP System.vbproj.GenerateResource.Cache

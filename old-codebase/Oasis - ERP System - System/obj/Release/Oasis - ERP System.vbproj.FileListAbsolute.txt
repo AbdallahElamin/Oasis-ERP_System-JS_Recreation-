@@ -1,0 +1,44 @@
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\ResolveAssemblyReference.cache
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAdminSalesDistributors.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAdminSalesRegions.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAdminSalesRepresentatives.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmChequesManagement.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmClientsAdd.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmDisposeItems.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAccountsStatement.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAddItemsToStock.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmBalanceSheet.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmChangePassword.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmChartofAccounts.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmClientsRegister.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmCompositeItems.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmExpensesAnalysis.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmInvoice.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmInvoicesArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmItemsRegistry.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmClientClassification.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmAddCompany.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmListItemsGroups.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmLogin.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmMain.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmPayVoucher.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmQueryInventory.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmQuotation.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmQuotationArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmReceiptVoucher.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmSalesReports.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmSearchClientID.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmStockTransactions.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmTrialBalance.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmUsersMang.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.frmVouchersArchive.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.ReportViewer.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\OasisERPSystem.Resources.resources
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\Oasis - ERP System.vbproj.GenerateResource.Cache
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Release\Oasis - ERP System.exe.config
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Release\Oasis - ERP System.exe
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Release\Oasis - ERP System.pdb
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\bin\Release\Oasis - ERP System.xml
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\Oasis - ERP System.exe
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\Oasis - ERP System.xml
+E:\Mahdi International\Oasis - ERP System\Oasis - ERP System - System\obj\Release\Oasis - ERP System.pdb

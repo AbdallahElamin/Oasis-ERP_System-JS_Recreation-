@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Oasis - ERP System">
+</Property><Property Name="Solution File" Value="E:\Mahdi International\Oasis - ERP System\Oasis - ERP System.sln">
+</Property><Property Name="Date" Value="Friday, June 01, 2012">
+</Property><Property Name="Time" Value="19:03 PM">
+</Property></Properties><Event ErrorLevel="4" Project="Oasis - ERP System" Source="http://go.microsoft.com/fwlink/?LinkId=159919" Description="Warning: this project requires Crystal Reports, which is no longer included with Visual Studio. Please click here for more information.">
+</Event><Event ErrorLevel="0" Project="Oasis - ERP System" Source="Oasis - ERP System - System\Oasis - ERP System.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Oasis - ERP System" Source="Oasis - ERP System - System\Oasis - ERP System.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Oasis - ERP System.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Oasis - ERP System.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Oasis - ERP System" Source="Oasis - ERP System - System\Oasis - ERP System.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
