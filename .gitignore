@@ -5,3 +5,9 @@
 
 # The local rulse of agents in antigravity
 /.agents
+
+# The extracted codebase content which is not part of the new codebase
+/extracted_codebase.txt
+
+# The tool that is used for the extraction
+/recreation.py
