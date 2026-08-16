@@ -1,0 +1,343 @@
+// This is the Prisma schema for the Oasis ERP System.
+// Database: MariaDB (MySQL-compatible)
+// Original source: VB.NET WinForms app with Microsoft SQL Server
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+}
+
+// ============================================================
+// AUTHENTICATION & USERS
+// ============================================================
+
+model User {
+  id        Int      @id @default(autoincrement())
+  fullName  String   @map("FullName") @db.VarChar(150)
+  pass      String   @map("Pass") @db.VarChar(255) // bcrypt hashed
+  role      String   @default("user") @db.VarChar(50)
+  isActive  Boolean  @default(true) @map("IsActive")
+  createdAt DateTime @default(now()) @map("CreatedAt")
+
+  @@map("Users")
+}
+
+// ============================================================
+// LOOKUP TABLES
+// ============================================================
+
+model Region {
+  id     Int     @id @default(autoincrement())
+  state  String? @db.VarChar(150)
+  region String? @db.VarChar(150)
+  area   String? @db.VarChar(150)
+
+  @@map("Regions")
+}
+
+model ClientClass {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(150)
+
+  @@map("ClientClasses")
+}
+
+model StoreName {
+  id        Int    @id @default(autoincrement())
+  storeName String @map("StoreName") @db.VarChar(250)
+
+  @@map("StoreName")
+}
+
+model Company {
+  id          Int    @id @default(autoincrement())
+  companyName String @map("CompanyName") @db.VarChar(250)
+
+  @@map("Companies")
+}
+
+model AgentDistributor {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(150)
+
+  @@map("AgentDistributors")
+}
+
+model AgentRepresentative {
+  id   Int    @id @default(autoincrement())
+  name String @db.VarChar(150)
+
+  @@map("AgentRepresentatives")
+}
+
+model LockDate {
+  id       Int      @id @default(1)
+  lockDate DateTime @map("LockDate")
+
+  @@map("LockDate")
+}
+
+// ============================================================
+// CLIENTS
+// ============================================================
+
+model Client {
+  id                   Int      @id @default(autoincrement()) @map("SNo")
+  name                 String   @db.VarChar(150)
+  licNo                String?  @map("LicNo") @db.VarChar(100)
+  taxNo                String?  @map("TaxNo") @db.VarChar(100)
+  mobile               String?  @db.VarChar(50)
+  clientClass          String?  @map("ClientClass") @db.VarChar(100)
+  state                String?  @db.VarChar(100)
+  region               String?  @db.VarChar(100)
+  area                 String?  @db.VarChar(100)
+  city                 String?  @db.VarChar(100)
+  town                 String?  @db.VarChar(100)
+  district             String?  @db.VarChar(100)
+  street               String?  @db.VarChar(100)
+  buildingNo           String?  @map("BuildingNo") @db.VarChar(50)
+  salesMan             String?  @map("SalesMan") @db.VarChar(150)
+  medicalRepresentative String? @map("MedicalRepresentative") @db.VarChar(150)
+  pharmacyOwner        String?  @map("PharmacyOwner") @db.VarChar(150)
+  pharmacyOwnerMob     String?  @map("PharmacyOwnerMob") @db.VarChar(50)
+  pharmacyDoctor       String?  @map("PharmacyDoctor") @db.VarChar(150)
+  pharmacyDoctorMob    String?  @map("PharmacyDoctorMob") @db.VarChar(50)
+  userName             String?  @map("UserName") @db.VarChar(150)
+  createdAt            DateTime @default(now()) @map("CreatedAt")
+
+  invoices     Invoice[]
+  transactions Transaction[]
+
+  @@map("Clients")
+}
+
+// ============================================================
+// INVENTORY
+// ============================================================
+
+model ItemRegistry {
+  id          Int     @id @default(autoincrement()) @map("SNo")
+  item        String  @unique @db.VarChar(250)
+  genericName String? @map("GenericName") @db.VarChar(250)
+  pack        String? @db.VarChar(100)
+  wPrice      Float   @default(0) @map("WPrice")
+  rPrice      Float   @default(0) @map("RPrice")
+  companyName String? @map("CompanyName") @db.VarChar(250)
+
+  @@map("ItemsRegistry")
+}
+
+model Stock {
+  id          Int       @id @default(autoincrement()) @map("SNo")
+  storeName   String    @map("StoreName") @db.VarChar(250)
+  item        String    @db.VarChar(250)
+  companyName String?   @map("CompanyName") @db.VarChar(250)
+  pack        String?   @db.VarChar(100)
+  batchNo     String?   @map("BatchNo") @db.VarChar(250)
+  qntIn       Float     @default(0) @map("QntIn")
+  qntOut      Float     @default(0) @map("QntOut")
+  wPrice      Float     @default(0) @map("WPrice")
+  rPrice      Float     @default(0) @map("RPrice")
+  expireDate  DateTime? @map("ExpireDate")
+  details     String?   @db.VarChar(500)
+  employee    String?   @db.VarChar(150)
+  transType   String?   @map("TransType") @db.VarChar(100)
+  transDate   DateTime  @default(now()) @map("TransDate")
+
+  @@map("Stock")
+}
+
+// ============================================================
+// SALES — INVOICES
+// ============================================================
+
+model Invoice {
+  id             Int      @id @default(autoincrement()) @map("SNo")
+  invNo          Int      @map("InvNo")
+  custId         Int      @map("CustID")
+  custName       String   @map("CustName") @db.VarChar(150)
+  storeName      String   @map("StoreName") @db.VarChar(250)
+  item           String   @db.VarChar(250)
+  batchNo        String?  @map("BatchNo") @db.VarChar(250)
+  pack           String?  @db.VarChar(100)
+  price          Float    @default(0)
+  rPrice         Float    @default(0) @map("Rpric")
+  qnt            Float    @default(0) @map("Qnt")
+  disc           Float    @default(0) @map("Disc")
+  vat            Float    @default(0) @map("VAT")
+  netAmount      Float    @default(0) @map("NetAmount")
+  totalSdg       Float    @default(0) @map("TotalSDG")
+  amountInWords  String?  @map("AmountInWords") @db.VarChar(500)
+  prescription   String?  @db.VarChar(250)
+  employee       String?  @db.VarChar(150)
+  transDate      DateTime @default(now()) @map("TransDate")
+
+  client Client @relation(fields: [custId], references: [id])
+
+  @@map("Invoices")
+}
+
+// ============================================================
+// SALES — QUOTATIONS
+// ============================================================
+
+model Quotation {
+  id            Int      @id @default(autoincrement()) @map("SNo")
+  invNo         Int      @map("InvNo")
+  custId        Int      @map("CustID")
+  custName      String   @map("CustName") @db.VarChar(150)
+  storeName     String   @map("StoreName") @db.VarChar(250)
+  item          String   @db.VarChar(250)
+  batchNo       String?  @map("BatchNo") @db.VarChar(250)
+  pack          String?  @db.VarChar(100)
+  price         Float    @default(0)
+  rPrice        Float    @default(0) @map("Rpric")
+  qnt           Float    @default(0) @map("Qnt")
+  disc          Float    @default(0) @map("Disc")
+  vat           Float    @default(0) @map("VAT")
+  netAmount     Float    @default(0) @map("NetAmount")
+  totalSdg      Float    @default(0) @map("TotalSDG")
+  amountInWords String?  @map("AmountInWords") @db.VarChar(500)
+  prescription  String?  @db.VarChar(250)
+  employee      String?  @db.VarChar(150)
+  transDate     DateTime @default(now()) @map("TransDate")
+
+  @@map("Quotations")
+}
+
+// ============================================================
+// FINANCE — CHART OF ACCOUNTS
+// ============================================================
+
+model Account {
+  id   Int     @id @default(autoincrement())
+  acc1 String  @map("Acc1") @db.VarChar(150)
+  acc2 String? @map("Acc2") @db.VarChar(150)
+  acc3 String? @map("Acc3") @db.VarChar(150)
+  acc4 String? @map("Acc4") @db.VarChar(150)
+
+  @@map("Accs")
+}
+
+// ============================================================
+// FINANCE — TRANSACTIONS
+// ============================================================
+
+model Transaction {
+  id             Int       @id @default(autoincrement()) @map("SNo")
+  moveNo         Int?      @map("MoveNo")
+  custId         Int?      @map("CustID")
+  custName       String?   @map("CustName") @db.VarChar(150)
+  ref            String?   @map("Ref") @db.VarChar(250)
+  acc1           String?   @map("Acc1") @db.VarChar(150)
+  acc2           String?   @map("Acc2") @db.VarChar(150)
+  acc3           String?   @map("Acc3") @db.VarChar(150)
+  acc4           String?   @map("Acc4") @db.VarChar(150)
+  totalIn        Float     @default(0) @map("TotalIn")
+  totalOut       Float     @default(0) @map("TotalOut")
+  totalValueIn   Float     @default(0) @map("TotalValueIn")
+  totalValueOut  Float     @default(0) @map("TotalValueOut")
+  transType      String?   @map("TransType") @db.VarChar(100)
+  paymentType    String?   @map("PaymentType") @db.VarChar(100)
+  source         String?   @map("Source") @db.VarChar(250)
+  writing        String?   @map("Writting") @db.VarChar(500)
+  transDate      DateTime  @default(now()) @map("TransDate")
+  employee       String?   @db.VarChar(150)
+  paperNo        Int?      @map("PaperNo")
+  package        String?   @map("Package") @db.VarChar(250)
+  cheqDate       DateTime? @map("CheqDate")
+  approved       Boolean   @default(false) @map("Approved")
+
+  client Client? @relation(fields: [custId], references: [id])
+
+  @@map("Transactions")
+}
+
+// ============================================================
+// HR MODULE
+// ============================================================
+
+model Department {
+  id         Int    @id @default(autoincrement())
+  nameEn     String @map("NameEn") @db.VarChar(150)
+  nameAr     String? @map("NameAr") @db.VarChar(150)
+  employees  Employee[]
+
+  @@map("Departments")
+}
+
+model GradeLevel {
+  id         Int    @id @default(autoincrement())
+  level      String @db.VarChar(100)
+  basicSalary Float  @default(0) @map("BasicSalary")
+  allowances Json?
+
+  @@map("GradeLevels")
+}
+
+model JobDescription {
+  id     Int     @id @default(autoincrement())
+  nameEn String  @map("NameEn") @db.VarChar(200)
+  nameAr String? @map("NameAr") @db.VarChar(200)
+
+  employees Employee[]
+
+  @@map("JobDescriptions")
+}
+
+model Employee {
+  id                 Int          @id @default(autoincrement()) @map("EmpNo")
+  fullName           String       @map("FullName") @db.VarChar(200)
+  nationalId         String?      @map("NationalId") @db.VarChar(50)
+  mobile             String?      @db.VarChar(50)
+  email              String?      @db.VarChar(200)
+  dateOfBirth        DateTime?    @map("DateOfBirth")
+  dateOfJoining      DateTime?    @map("DateOfJoining")
+  departmentId       Int?         @map("DepartmentId")
+  jobDescriptionId   Int?         @map("JobDescriptionId")
+  gradeLevelId       Int?         @map("GradeLevelId")
+  basicSalary        Float        @default(0) @map("BasicSalary")
+  contractType       String?      @map("ContractType") @db.VarChar(100)
+  isActive           Boolean      @default(true) @map("IsActive")
+  createdAt          DateTime     @default(now()) @map("CreatedAt")
+
+  department     Department?     @relation(fields: [departmentId], references: [id])
+  jobDescription JobDescription? @relation(fields: [jobDescriptionId], references: [id])
+  paySheets      PaySheet[]
+  vacations      Vacation[]
+
+  @@map("Employees")
+}
+
+model PaySheet {
+  id          Int      @id @default(autoincrement())
+  empNo       Int      @map("EmpNo")
+  month       Int
+  year        Int
+  basicSalary Float    @default(0) @map("BasicSalary")
+  allowances  Float    @default(0) @map("Allowances")
+  deductions  Float    @default(0) @map("Deductions")
+  netPay      Float    @default(0) @map("NetPay")
+  approved    Boolean  @default(false) @map("Approved")
+  createdAt   DateTime @default(now()) @map("CreatedAt")
+  employee    Employee @relation(fields: [empNo], references: [id])
+
+  @@map("PaySheets")
+}
+
+model Vacation {
+  id          Int      @id @default(autoincrement())
+  empNo       Int      @map("EmpNo")
+  startDate   DateTime @map("StartDate")
+  endDate     DateTime @map("EndDate")
+  type        String   @db.VarChar(100)
+  status      String   @default("Pending") @db.VarChar(50)
+  notes       String?  @db.Text
+  createdAt   DateTime @default(now()) @map("CreatedAt")
+  employee    Employee @relation(fields: [empNo], references: [id])
+
+  @@map("Vacations")
+}
