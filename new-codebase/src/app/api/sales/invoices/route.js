@@ -1,7 +1,7 @@
-// GET  /api/sales/invoices — list invoices (grouped by InvNo)
-// POST /api/sales/invoices — create a new invoice
+// GET  /api/sales/invoices — list invoices grouped by InvNo
+// POST /api/sales/invoices — create invoice with full transaction
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
 
 export async function GET(request) {
@@ -12,24 +12,23 @@ export async function GET(request) {
   const q = searchParams.get("q") || "";
   const year = parseInt(searchParams.get("year") || String(new Date().getFullYear()), 10);
 
-  const startOfYear = new Date(`${year}-01-01T00:00:00.000Z`);
-  const endOfYear = new Date(`${year + 1}-01-01T00:00:00.000Z`);
+  let sql = `
+    SELECT invNo, custId, custName, disc, vat, transDate, employee,
+           SUM(netAmount) as totalNet, SUM(totalSdg) as totalSdg, COUNT(*) as itemCount
+    FROM Invoices
+    WHERE YEAR(transDate) = ?
+  `;
+  const params = [year];
 
-  const where = {
-    transDate: { gte: startOfYear, lt: endOfYear },
-    ...(q ? { OR: [{ custName: { contains: q } }, { item: { contains: q } }] } : {}),
-  };
+  if (q) {
+    sql += " AND (custName LIKE ? OR item LIKE ?)";
+    params.push(`%${q}%`, `%${q}%`);
+  }
 
-  // Group by invNo to get one record per invoice
-  const invoices = await prisma.invoice.groupBy({
-    by: ["invNo", "custId", "custName", "disc", "vat", "transDate", "employee"],
-    where,
-    _sum: { netAmount: true, totalSdg: true },
-    _count: { invNo: true },
-    orderBy: { invNo: "desc" },
-  });
+  sql += " GROUP BY invNo, custId, custName, disc, vat, transDate, employee ORDER BY invNo DESC";
 
-  return NextResponse.json(invoices);
+  const rows = await pool.query(sql, params);
+  return NextResponse.json(rows);
 }
 
 export async function POST(request) {
@@ -43,98 +42,71 @@ export async function POST(request) {
     return NextResponse.json({ error: "Customer and at least one item are required" }, { status: 400 });
   }
 
-  const result = await prisma.$transaction(async (tx) => {
-    // Get next InvNo for the current year
+  const conn = await pool.getConnection();
+  try {
+    await conn.beginTransaction();
+
+    // Get next InvNo for current year
     const year = new Date().getFullYear();
-    const startOfYear = new Date(`${year}-01-01T00:00:00.000Z`);
-    const endOfYear = new Date(`${year + 1}-01-01T00:00:00.000Z`);
+    const lastRows = await conn.query(
+      "SELECT MAX(invNo) as lastNo FROM Invoices WHERE YEAR(transDate) = ?", [year]
+    );
+    const invNo = (Number(lastRows[0]?.lastNo) || 0) + 1;
 
-    const lastInvoice = await tx.invoice.findFirst({
-      where: { transDate: { gte: startOfYear, lt: endOfYear } },
-      orderBy: { invNo: "desc" },
-      select: { invNo: true },
-    });
-
-    const invNo = (lastInvoice?.invNo ?? 0) + 1;
-
-    // Insert one row per item into Invoices table
-    const invoiceRows = [];
+    // Insert one row per item
     for (const item of items) {
-      const row = await tx.invoice.create({
-        data: {
-          invNo,
-          custId: parseInt(custId, 10),
-          custName,
-          storeName: item.storeName,
-          item: item.item,
-          batchNo: item.batchNo || null,
-          pack: item.pack || null,
-          price: parseFloat(item.wPrice) || 0,
-          rPrice: parseFloat(item.rPrice) || 0,
-          qnt: parseFloat(item.qnt) || 0,
-          disc: parseFloat(discPerc) || 0,
-          vat: parseFloat(vatPerc) || 0,
-          netAmount: parseFloat(netAmount) || 0,
-          totalSdg: parseFloat(item.total) || 0,
-          amountInWords: amountInWords || null,
-          prescription: item.description || "Sales",
-          employee: session.user.name,
-        },
-      });
-      invoiceRows.push(row);
+      await conn.query(
+        `INSERT INTO Invoices
+          (invNo, custId, custName, storeName, item, batchNo, pack, price, rPrice,
+           qnt, disc, vat, netAmount, totalSdg, amountInWords, prescription, employee)
+         VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+        [invNo, parseInt(custId, 10), custName, item.storeName, item.item,
+         item.batchNo || null, item.pack || null,
+         parseFloat(item.wPrice) || 0, parseFloat(item.rPrice) || 0,
+         parseFloat(item.qnt) || 0, parseFloat(discPerc) || 0, parseFloat(vatPerc) || 0,
+         parseFloat(netAmount) || 0, parseFloat(item.total) || 0,
+         amountInWords || null, item.description || "Sales", session.user.name]
+      );
 
       // Deduct from stock
-      await tx.stock.create({
-        data: {
-          storeName: item.storeName,
-          item: item.item,
-          batchNo: item.batchNo || null,
-          pack: item.pack || null,
-          wPrice: parseFloat(item.wPrice) || 0,
-          rPrice: parseFloat(item.rPrice) || 0,
-          qntOut: parseFloat(item.qnt) || 0,
-          details: `Invoice# ${invNo}`,
-          employee: session.user.name,
-          transType: "Invoice",
-        },
-      });
+      await conn.query(
+        `INSERT INTO Stock (storeName, item, batchNo, pack, wPrice, rPrice, qntOut, details, employee, transType)
+         VALUES (?,?,?,?,?,?,?,?,?,'Invoice')`,
+        [item.storeName, item.item, item.batchNo || null, item.pack || null,
+         parseFloat(item.wPrice) || 0, parseFloat(item.rPrice) || 0,
+         parseFloat(item.qnt) || 0, `Invoice# ${invNo}`, session.user.name]
+      );
     }
 
-    // Get next MoveNo for financial transaction
-    const lastTx = await tx.transaction.findFirst({
-      orderBy: { moveNo: "desc" },
-      select: { moveNo: true },
-    });
-    const moveNo = (lastTx?.moveNo ?? 0) + 1;
+    // Get next MoveNo for financial journal entries
+    const lastTxRows = await conn.query("SELECT MAX(moveNo) as lastNo FROM Transactions");
+    const moveNo = (Number(lastTxRows[0]?.lastNo) || 0) + 1;
 
     // Debit: Assets > Current Assets > Clients > custName
-    await tx.transaction.create({
-      data: {
-        moveNo,
-        custId: parseInt(custId, 10),
-        custName,
-        ref: `Invoice# ${invNo}`,
-        acc1: "Assets", acc2: "Current Assets", acc3: "Clients", acc4: custName,
-        totalOut: parseFloat(netAmount) || 0,
-        employee: session.user.name,
-      },
-    });
+    await conn.query(
+      `INSERT INTO Transactions (moveNo, custId, custName, ref, acc1, acc2, acc3, acc4, totalOut, employee)
+       VALUES (?,?,?,?,?,?,?,?,?,?)`,
+      [moveNo, parseInt(custId, 10), custName, `Invoice# ${invNo}`,
+       "Assets", "Current Assets", "Clients", custName,
+       parseFloat(netAmount) || 0, session.user.name]
+    );
 
     // Credit: Purchase & Sales > Sales
-    await tx.transaction.create({
-      data: {
-        moveNo,
-        custId: parseInt(custId, 10),
-        custName,
-        ref: `Invoice# ${invNo}`,
-        acc1: "Purchase & Sales", acc2: "Sales", acc3: "Sales", acc4: "Sales",
-        totalIn: parseFloat(netAmount) || 0,
-        employee: session.user.name,
-      },
-    });
+    await conn.query(
+      `INSERT INTO Transactions (moveNo, custId, custName, ref, acc1, acc2, acc3, acc4, totalIn, employee)
+       VALUES (?,?,?,?,?,?,?,?,?,?)`,
+      [moveNo, parseInt(custId, 10), custName, `Invoice# ${invNo}`,
+       "Purchase & Sales", "Sales", "Sales", "Sales",
+       parseFloat(netAmount) || 0, session.user.name]
+    );
 
-    return { invNo, rows: invoiceRows };
-  });
-
-  return NextResponse.json(result, { status: 201 });
+    await conn.commit();
+    return NextResponse.json({ invNo }, { status: 201 });
+  } catch (err) {
+    await conn.rollback();
+    console.error("Invoice creation error:", err);
+    return NextResponse.json({ error: "Failed to save invoice" }, { status: 500 });
+  } finally {
+    conn.release();
+  }
 }

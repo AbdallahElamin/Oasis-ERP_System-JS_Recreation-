@@ -1,7 +1,7 @@
-// GET  /api/clients — list all clients (with optional search)
-// POST /api/clients — create a new client
+// GET  /api/clients — list all clients (paginated, searchable)
+// POST /api/clients — create a new client + open CoA account
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
 
 export async function GET(request) {
@@ -12,29 +12,21 @@ export async function GET(request) {
   const q = searchParams.get("q") || "";
   const page = parseInt(searchParams.get("page") || "1", 10);
   const limit = parseInt(searchParams.get("limit") || "50", 10);
-  const skip = (page - 1) * limit;
+  const offset = (page - 1) * limit;
 
-  const where = q
-    ? {
-        OR: [
-          { name: { contains: q } },
-          { mobile: { contains: q } },
-          { licNo: { contains: q } },
-        ],
-      }
-    : {};
+  let where = "1=1";
+  const params = [];
+  if (q) {
+    where = "(name LIKE ? OR mobile LIKE ? OR licNo LIKE ?)";
+    params.push(`%${q}%`, `%${q}%`, `%${q}%`);
+  }
 
-  const [clients, total] = await Promise.all([
-    prisma.client.findMany({
-      where,
-      orderBy: { name: "asc" },
-      skip,
-      take: limit,
-    }),
-    prisma.client.count({ where }),
+  const [clients, countRows] = await Promise.all([
+    pool.query(`SELECT * FROM Clients WHERE ${where} ORDER BY name ASC LIMIT ? OFFSET ?`, [...params, limit, offset]),
+    pool.query(`SELECT COUNT(*) as total FROM Clients WHERE ${where}`, params),
   ]);
 
-  return NextResponse.json({ clients, total, page, limit });
+  return NextResponse.json({ clients, total: Number(countRows[0].total), page, limit });
 }
 
 export async function POST(request) {
@@ -53,45 +45,39 @@ export async function POST(request) {
     return NextResponse.json({ error: "Client name is required" }, { status: 400 });
   }
 
-  // Use a transaction: create client + open account in Chart of Accounts
-  const client = await prisma.$transaction(async (tx) => {
-    const newClient = await tx.client.create({
-      data: {
-        name: name.trim(),
-        licNo: licNo?.trim() || null,
-        taxNo: taxNo?.trim() || null,
-        mobile: mobile?.trim() || null,
-        clientClass: clientClass?.trim() || null,
-        state: state?.trim() || null,
-        region: region?.trim() || null,
-        area: area?.trim() || null,
-        city: city?.trim() || null,
-        town: town?.trim() || null,
-        district: district?.trim() || null,
-        street: street?.trim() || null,
-        buildingNo: buildingNo?.trim() || null,
-        salesMan: salesMan?.trim() || null,
-        medicalRepresentative: medicalRepresentative?.trim() || null,
-        pharmacyOwner: pharmacyOwner?.trim() || null,
-        pharmacyOwnerMob: pharmacyOwnerMob?.trim() || null,
-        pharmacyDoctor: pharmacyDoctor?.trim() || null,
-        pharmacyDoctorMob: pharmacyDoctorMob?.trim() || null,
-        userName: session.user.name,
-      },
-    });
+  const conn = await pool.getConnection();
+  try {
+    await conn.beginTransaction();
 
-    // Open financial account in Chart of Accounts (mirrors original frmClientsAdd.vb)
-    await tx.account.create({
-      data: {
-        acc1: "Assets",
-        acc2: "Current Assets",
-        acc3: "Clients",
-        acc4: name.trim(),
-      },
-    });
+    const result = await conn.query(
+      `INSERT INTO Clients
+        (name, licNo, taxNo, mobile, clientClass, state, region, area, city, town, district,
+         street, buildingNo, salesMan, medicalRepresentative,
+         pharmacyOwner, pharmacyOwnerMob, pharmacyDoctor, pharmacyDoctorMob, userName)
+       VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
+      [name.trim(), licNo?.trim() || null, taxNo?.trim() || null, mobile?.trim() || null,
+       clientClass?.trim() || null, state?.trim() || null, region?.trim() || null, area?.trim() || null,
+       city?.trim() || null, town?.trim() || null, district?.trim() || null, street?.trim() || null,
+       buildingNo?.trim() || null, salesMan?.trim() || null, medicalRepresentative?.trim() || null,
+       pharmacyOwner?.trim() || null, pharmacyOwnerMob?.trim() || null,
+       pharmacyDoctor?.trim() || null, pharmacyDoctorMob?.trim() || null, session.user.name]
+    );
 
-    return newClient;
-  });
+    const clientId = Number(result.insertId);
 
-  return NextResponse.json(client, { status: 201 });
+    // Open financial account in Chart of Accounts
+    await conn.query(
+      "INSERT INTO Accounts (acc1, acc2, acc3, acc4) VALUES ('Assets', 'Current Assets', 'Clients', ?)",
+      [name.trim()]
+    );
+
+    await conn.commit();
+    return NextResponse.json({ id: clientId, name: name.trim() }, { status: 201 });
+  } catch (err) {
+    await conn.rollback();
+    console.error("Client creation error:", err);
+    return NextResponse.json({ error: "Failed to save client" }, { status: 500 });
+  } finally {
+    conn.release();
+  }
 }

@@ -1,23 +1,27 @@
+// GET /api/admin/agents — sales agents and medical representatives
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
 
 export async function GET(request) {
   const session = await auth();
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
   const { searchParams } = new URL(request.url);
   const type = searchParams.get("type");
+
   if (type === "distributor") {
-    const agents = await prisma.agentDistributor.findMany({ orderBy: { name: "asc" } });
-    return NextResponse.json(agents);
+    const rows = await pool.query("SELECT * FROM AgentDistributors ORDER BY name ASC");
+    return NextResponse.json(rows);
   }
   if (type === "representative") {
-    const reps = await prisma.agentRepresentative.findMany({ orderBy: { name: "asc" } });
-    return NextResponse.json(reps);
+    const rows = await pool.query("SELECT * FROM AgentRepresentatives ORDER BY name ASC");
+    return NextResponse.json(rows);
   }
+
   const [distributors, reps] = await Promise.all([
-    prisma.agentDistributor.findMany(),
-    prisma.agentRepresentative.findMany(),
+    pool.query("SELECT * FROM AgentDistributors ORDER BY name ASC"),
+    pool.query("SELECT * FROM AgentRepresentatives ORDER BY name ASC"),
   ]);
   return NextResponse.json({ distributors, representatives: reps });
 }

@@ -1,7 +1,7 @@
 // GET /api/inventory/items  — list all items
 // POST /api/inventory/items — create a new item
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
 
 export async function GET(request) {
@@ -11,20 +11,17 @@ export async function GET(request) {
   const { searchParams } = new URL(request.url);
   const q = searchParams.get("q") || "";
 
-  const items = await prisma.itemRegistry.findMany({
-    where: q
-      ? {
-          OR: [
-            { item: { contains: q } },
-            { genericName: { contains: q } },
-            { companyName: { contains: q } },
-          ],
-        }
-      : {},
-    orderBy: { item: "asc" },
-  });
+  let rows;
+  if (q) {
+    rows = await pool.query(
+      "SELECT * FROM ItemsRegistry WHERE item LIKE ? OR genericName LIKE ? OR companyName LIKE ? ORDER BY item ASC",
+      [`%${q}%`, `%${q}%`, `%${q}%`]
+    );
+  } else {
+    rows = await pool.query("SELECT * FROM ItemsRegistry ORDER BY item ASC");
+  }
 
-  return NextResponse.json(items);
+  return NextResponse.json(rows);
 }
 
 export async function POST(request) {
@@ -38,21 +35,15 @@ export async function POST(request) {
     return NextResponse.json({ error: "Item name is required" }, { status: 400 });
   }
 
-  const existing = await prisma.itemRegistry.findUnique({ where: { item } });
-  if (existing) {
+  const existing = await pool.query("SELECT id FROM ItemsRegistry WHERE item = ? LIMIT 1", [item.trim()]);
+  if (existing.length > 0) {
     return NextResponse.json({ error: "Item already exists" }, { status: 409 });
   }
 
-  const newItem = await prisma.itemRegistry.create({
-    data: {
-      item: item.trim(),
-      genericName: genericName?.trim() || null,
-      pack: pack?.trim() || null,
-      wPrice: parseFloat(wPrice) || 0,
-      rPrice: parseFloat(rPrice) || 0,
-      companyName: companyName?.trim() || null,
-    },
-  });
+  const result = await pool.query(
+    "INSERT INTO ItemsRegistry (item, genericName, pack, wPrice, rPrice, companyName) VALUES (?, ?, ?, ?, ?, ?)",
+    [item.trim(), genericName?.trim() || null, pack?.trim() || null, parseFloat(wPrice) || 0, parseFloat(rPrice) || 0, companyName?.trim() || null]
+  );
 
-  return NextResponse.json(newItem, { status: 201 });
+  return NextResponse.json({ id: Number(result.insertId), item: item.trim() }, { status: 201 });
 }

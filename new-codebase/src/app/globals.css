@@ -450,3 +450,33 @@ select.form-control {
   .erp-sidebar { transform: translateX(-100%); }
   .erp-main { margin-left: 0; }
 }
+
+/* ─── Dashboard hover cards ─────────────────────── */
+.stat-card-link {
+  text-decoration: none;
+  display: block;
+}
+
+.stat-card-hover {
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.stat-card-hover:hover {
+  border-color: var(--accent-primary);
+  box-shadow: 0 0 0 1px var(--accent-primary), var(--shadow-card);
+}
+
+.quick-link-card {
+  display: block;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-subtle);
+  background: var(--bg-tertiary);
+  text-decoration: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.quick-link-card:hover {
+  border-color: var(--accent-primary);
+  background: rgba(99, 102, 241, 0.06);
+}

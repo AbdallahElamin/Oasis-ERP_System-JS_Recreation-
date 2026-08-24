@@ -1,7 +1,7 @@
-// GET  /api/inventory/stock — list stock (grouped summary)
+// GET /api/inventory/stock — grouped stock summary
 // POST /api/inventory/stock — add stock entries
 import { NextResponse } from "next/server";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
 
 export async function GET(request) {
@@ -10,32 +10,23 @@ export async function GET(request) {
 
   const { searchParams } = new URL(request.url);
   const storeName = searchParams.get("store");
-  const item = searchParams.get("item");
+  const itemQ = searchParams.get("item");
 
-  // Build a grouped stock summary — sum of QntIn minus sum of QntOut per store/item/batch
-  const where = {};
-  if (storeName) where.storeName = storeName;
-  if (item) where.item = { contains: item };
+  let sql = `
+    SELECT storeName, item, batchNo, pack, wPrice, rPrice,
+           SUM(COALESCE(qntIn, 0)) - SUM(COALESCE(qntOut, 0)) AS availableQnt
+    FROM Stock
+    WHERE 1=1
+  `;
+  const params = [];
 
-  // Raw grouped query via Prisma's groupBy
-  const grouped = await prisma.stock.groupBy({
-    by: ["storeName", "item", "batchNo", "pack", "wPrice", "rPrice"],
-    where,
-    _sum: { qntIn: true, qntOut: true },
-    orderBy: [{ storeName: "asc" }, { item: "asc" }],
-  });
+  if (storeName) { sql += " AND storeName = ?"; params.push(storeName); }
+  if (itemQ) { sql += " AND item LIKE ?"; params.push(`%${itemQ}%`); }
 
-  const result = grouped.map((row) => ({
-    storeName: row.storeName,
-    item: row.item,
-    batchNo: row.batchNo,
-    pack: row.pack,
-    wPrice: row.wPrice,
-    rPrice: row.rPrice,
-    availableQnt: (row._sum.qntIn ?? 0) - (row._sum.qntOut ?? 0),
-  }));
+  sql += " GROUP BY storeName, item, batchNo, pack, wPrice, rPrice ORDER BY storeName ASC, item ASC";
 
-  return NextResponse.json(result);
+  const rows = await pool.query(sql, params);
+  return NextResponse.json(rows);
 }
 
 export async function POST(request) {
@@ -43,45 +34,43 @@ export async function POST(request) {
   if (!session) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 
   const body = await request.json();
-  const { entries } = body; // Array of stock entries
+  const { entries } = body;
 
   if (!entries || !Array.isArray(entries) || entries.length === 0) {
     return NextResponse.json({ error: "No stock entries provided" }, { status: 400 });
   }
 
-  // Use a transaction to insert all entries + update item prices
-  const result = await prisma.$transaction(async (tx) => {
+  const conn = await pool.getConnection();
+  try {
+    await conn.beginTransaction();
     const created = [];
+
     for (const entry of entries) {
       const { storeName, item, pack, batchNo, qntIn, wPrice, rPrice, expireDate, details } = entry;
 
-      // Insert stock record
-      const stock = await tx.stock.create({
-        data: {
-          storeName,
-          item,
-          pack: pack || null,
-          batchNo: batchNo || null,
-          qntIn: parseFloat(qntIn) || 0,
-          wPrice: parseFloat(wPrice) || 0,
-          rPrice: parseFloat(rPrice) || 0,
-          expireDate: expireDate ? new Date(expireDate) : null,
-          details: details || null,
-          employee: session.user.name,
-          transType: "Addition",
-        },
-      });
+      const result = await conn.query(
+        `INSERT INTO Stock (storeName, item, pack, batchNo, qntIn, wPrice, rPrice, expireDate, details, employee, transType)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Addition')`,
+        [storeName, item, pack || null, batchNo || null, parseFloat(qntIn) || 0,
+         parseFloat(wPrice) || 0, parseFloat(rPrice) || 0,
+         expireDate ? new Date(expireDate) : null, details || null, session.user.name]
+      );
+      created.push({ id: Number(result.insertId), item });
 
       // Update price in ItemsRegistry
-      await tx.itemRegistry.updateMany({
-        where: { item },
-        data: { wPrice: parseFloat(wPrice) || 0, rPrice: parseFloat(rPrice) || 0 },
-      });
-
-      created.push(stock);
+      await conn.query(
+        "UPDATE ItemsRegistry SET wPrice = ?, rPrice = ? WHERE item = ?",
+        [parseFloat(wPrice) || 0, parseFloat(rPrice) || 0, item]
+      );
     }
-    return created;
-  });
 
-  return NextResponse.json(result, { status: 201 });
+    await conn.commit();
+    return NextResponse.json(created, { status: 201 });
+  } catch (err) {
+    await conn.rollback();
+    console.error("Stock insertion error:", err);
+    return NextResponse.json({ error: "Failed to save stock" }, { status: 500 });
+  } finally {
+    conn.release();
+  }
 }

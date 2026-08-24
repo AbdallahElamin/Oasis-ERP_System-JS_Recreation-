@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Credentials from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
-import prisma from "@/lib/prisma";
+import pool from "@/lib/db";
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   providers: [
@@ -14,14 +14,21 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       async authorize(credentials) {
         if (!credentials?.userId || !credentials?.password) return null;
 
-        const user = await prisma.user.findUnique({
-          where: { id: parseInt(credentials.userId, 10) },
-        });
+        const userId = parseInt(credentials.userId, 10);
+        if (isNaN(userId)) return null;
 
-        if (!user || !user.isActive) return null;
+        const rows = await pool.query(
+          "SELECT id, fullName, pass, role, isActive FROM Users WHERE id = ? LIMIT 1",
+          [userId]
+        );
+
+        const user = rows[0];
+        if (!user) return null;
+        // isActive can be null (no constraint) — treat null as active
+        if (user.isActive === false || user.isActive === 0) return null;
 
         const passwordMatch = await bcrypt.compare(
-          credentials.password,
+          String(credentials.password),
           user.pass
         );
 
