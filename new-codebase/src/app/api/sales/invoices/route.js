@@ -1,5 +1,3 @@
-// GET  /api/sales/invoices — list invoices grouped by InvNo
-// POST /api/sales/invoices — create invoice with full transaction
 import { NextResponse } from "next/server";
 import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
@@ -13,19 +11,20 @@ export async function GET(request) {
   const year = parseInt(searchParams.get("year") || String(new Date().getFullYear()), 10);
 
   let sql = `
-    SELECT invNo, custId, custName, disc, vat, transDate, employee,
-           SUM(netAmount) as totalNet, SUM(totalSdg) as totalSdg, COUNT(*) as itemCount
+    SELECT InvNo, CustID, CustName, Disc, VAT, TransDate, employee,
+           SUM(NetAmount) AS totalNet, SUM(TotalSDG) AS totalSdg, COUNT(*) AS itemCount
     FROM Invoices
-    WHERE YEAR(transDate) = ?
+    WHERE YEAR(TransDate) = ?
   `;
   const params = [year];
 
   if (q) {
-    sql += " AND (custName LIKE ? OR item LIKE ?)";
+    sql += " AND (CustName LIKE ? OR item LIKE ?)";
     params.push(`%${q}%`, `%${q}%`);
   }
 
-  sql += " GROUP BY invNo, custId, custName, disc, vat, transDate, employee ORDER BY invNo DESC";
+  sql +=
+    " GROUP BY InvNo, CustID, CustName, Disc, VAT, TransDate, employee ORDER BY InvNo DESC";
 
   const rows = await pool.query(sql, params);
   return NextResponse.json(rows);
@@ -39,7 +38,10 @@ export async function POST(request) {
   const { custId, custName, items, discPerc, vatPerc, netAmount, amountInWords } = body;
 
   if (!custId || !custName || !items?.length) {
-    return NextResponse.json({ error: "Customer and at least one item are required" }, { status: 400 });
+    return NextResponse.json(
+      { error: "Customer and at least one item are required" },
+      { status: 400 }
+    );
   }
 
   const conn = await pool.getConnection();
@@ -49,55 +51,96 @@ export async function POST(request) {
     // Get next InvNo for current year
     const year = new Date().getFullYear();
     const lastRows = await conn.query(
-      "SELECT MAX(invNo) as lastNo FROM Invoices WHERE YEAR(transDate) = ?", [year]
+      "SELECT COALESCE(MAX(InvNo), 0) AS lastNo FROM Invoices WHERE YEAR(TransDate) = ?",
+      [year]
     );
-    const invNo = (Number(lastRows[0]?.lastNo) || 0) + 1;
+    const invNo = Number(lastRows[0]?.lastNo || 0) + 1;
 
-    // Insert one row per item
     for (const item of items) {
       await conn.query(
         `INSERT INTO Invoices
-          (invNo, custId, custName, storeName, item, batchNo, pack, price, rPrice,
-           qnt, disc, vat, netAmount, totalSdg, amountInWords, prescription, employee)
+          (InvNo, CustID, CustName, StoreName, item, BatchNo, pack, price, Rpric,
+           Qnt, Disc, VAT, NetAmount, TotalSDG, AmountInWords, prescription, employee)
          VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`,
-        [invNo, parseInt(custId, 10), custName, item.storeName, item.item,
-         item.batchNo || null, item.pack || null,
-         parseFloat(item.wPrice) || 0, parseFloat(item.rPrice) || 0,
-         parseFloat(item.qnt) || 0, parseFloat(discPerc) || 0, parseFloat(vatPerc) || 0,
-         parseFloat(netAmount) || 0, parseFloat(item.total) || 0,
-         amountInWords || null, item.description || "Sales", session.user.name]
+        [
+          invNo,
+          parseInt(custId, 10),
+          custName,
+          item.storeName,
+          item.item,
+          item.batchNo || null,
+          item.pack || null,
+          parseFloat(item.wPrice) || 0,
+          parseFloat(item.rPrice) || 0,
+          parseFloat(item.qnt) || 0,
+          parseFloat(discPerc) || 0,
+          parseFloat(vatPerc) || 0,
+          parseFloat(netAmount) || 0,
+          parseFloat(item.total) || 0,
+          amountInWords || null,
+          item.description || "Sales",
+          session.user.name,
+        ]
       );
 
       // Deduct from stock
       await conn.query(
-        `INSERT INTO Stock (storeName, item, batchNo, pack, wPrice, rPrice, qntOut, details, employee, transType)
+        `INSERT INTO Stock (StoreName, item, BatchNo, pack, WPrice, RPrice, QntOut, details, employee, TransType)
          VALUES (?,?,?,?,?,?,?,?,?,'Invoice')`,
-        [item.storeName, item.item, item.batchNo || null, item.pack || null,
-         parseFloat(item.wPrice) || 0, parseFloat(item.rPrice) || 0,
-         parseFloat(item.qnt) || 0, `Invoice# ${invNo}`, session.user.name]
+        [
+          item.storeName,
+          item.item,
+          item.batchNo || null,
+          item.pack || null,
+          parseFloat(item.wPrice) || 0,
+          parseFloat(item.rPrice) || 0,
+          parseFloat(item.qnt) || 0,
+          `Invoice# ${invNo}`,
+          session.user.name,
+        ]
       );
     }
 
-    // Get next MoveNo for financial journal entries
-    const lastTxRows = await conn.query("SELECT MAX(moveNo) as lastNo FROM Transactions");
-    const moveNo = (Number(lastTxRows[0]?.lastNo) || 0) + 1;
+    // Get next MoveNo for journal entries
+    const lastTxRows = await conn.query(
+      "SELECT COALESCE(MAX(MoveNo), 0) AS lastNo FROM Transactions WHERE YEAR(TransDate) = YEAR(CURDATE())"
+    );
+    const moveNo = Number(lastTxRows[0]?.lastNo || 0) + 1;
 
     // Debit: Assets > Current Assets > Clients > custName
     await conn.query(
-      `INSERT INTO Transactions (moveNo, custId, custName, ref, acc1, acc2, acc3, acc4, totalOut, employee)
+      `INSERT INTO Transactions (MoveNo, CustID, CustName, Ref, Acc1, Acc2, Acc3, Acc4, TotalIn, employee)
        VALUES (?,?,?,?,?,?,?,?,?,?)`,
-      [moveNo, parseInt(custId, 10), custName, `Invoice# ${invNo}`,
-       "Assets", "Current Assets", "Clients", custName,
-       parseFloat(netAmount) || 0, session.user.name]
+      [
+        moveNo,
+        parseInt(custId, 10),
+        custName,
+        `Invoice# ${invNo}`,
+        "Assets",
+        "Current Assets",
+        "Clients",
+        custName,
+        parseFloat(netAmount) || 0,
+        session.user.name,
+      ]
     );
 
     // Credit: Purchase & Sales > Sales
     await conn.query(
-      `INSERT INTO Transactions (moveNo, custId, custName, ref, acc1, acc2, acc3, acc4, totalIn, employee)
+      `INSERT INTO Transactions (MoveNo, CustID, CustName, Ref, Acc1, Acc2, Acc3, Acc4, TotalOut, employee)
        VALUES (?,?,?,?,?,?,?,?,?,?)`,
-      [moveNo, parseInt(custId, 10), custName, `Invoice# ${invNo}`,
-       "Purchase & Sales", "Sales", "Sales", "Sales",
-       parseFloat(netAmount) || 0, session.user.name]
+      [
+        moveNo,
+        parseInt(custId, 10),
+        custName,
+        `Invoice# ${invNo}`,
+        "Purchase & Sales",
+        "Sales",
+        "Sales",
+        "Sales",
+        parseFloat(netAmount) || 0,
+        session.user.name,
+      ]
     );
 
     await conn.commit();

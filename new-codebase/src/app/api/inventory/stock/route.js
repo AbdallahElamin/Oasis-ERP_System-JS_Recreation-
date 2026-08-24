@@ -1,5 +1,3 @@
-// GET /api/inventory/stock — grouped stock summary
-// POST /api/inventory/stock — add stock entries
 import { NextResponse } from "next/server";
 import pool from "@/lib/db";
 import { auth } from "@/lib/auth";
@@ -13,17 +11,18 @@ export async function GET(request) {
   const itemQ = searchParams.get("item");
 
   let sql = `
-    SELECT storeName, item, batchNo, pack, wPrice, rPrice,
-           SUM(COALESCE(qntIn, 0)) - SUM(COALESCE(qntOut, 0)) AS availableQnt
+    SELECT StoreName, item, BatchNo, pack,
+           SUM(COALESCE(QntIn, 0)) - SUM(COALESCE(QntOut, 0)) AS availableQnt,
+           MAX(WPrice) AS WPrice, MAX(RPrice) AS RPrice, MAX(ExpireDate) AS ExpireDate
     FROM Stock
     WHERE 1=1
   `;
   const params = [];
 
-  if (storeName) { sql += " AND storeName = ?"; params.push(storeName); }
+  if (storeName) { sql += " AND StoreName = ?"; params.push(storeName); }
   if (itemQ) { sql += " AND item LIKE ?"; params.push(`%${itemQ}%`); }
 
-  sql += " GROUP BY storeName, item, batchNo, pack, wPrice, rPrice ORDER BY storeName ASC, item ASC";
+  sql += " GROUP BY StoreName, item, BatchNo, pack ORDER BY StoreName ASC, item ASC";
 
   const rows = await pool.query(sql, params);
   return NextResponse.json(rows);
@@ -49,17 +48,23 @@ export async function POST(request) {
       const { storeName, item, pack, batchNo, qntIn, wPrice, rPrice, expireDate, details } = entry;
 
       const result = await conn.query(
-        `INSERT INTO Stock (storeName, item, pack, batchNo, qntIn, wPrice, rPrice, expireDate, details, employee, transType)
+        `INSERT INTO Stock (StoreName, item, pack, BatchNo, QntIn, WPrice, RPrice, ExpireDate, details, employee, TransType)
          VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'Addition')`,
-        [storeName, item, pack || null, batchNo || null, parseFloat(qntIn) || 0,
-         parseFloat(wPrice) || 0, parseFloat(rPrice) || 0,
-         expireDate ? new Date(expireDate) : null, details || null, session.user.name]
+        [
+          storeName, item, pack || null, batchNo || null,
+          parseFloat(qntIn) || 0,
+          parseFloat(wPrice) || 0,
+          parseFloat(rPrice) || 0,
+          expireDate ? new Date(expireDate) : null,
+          details || null,
+          session.user.name,
+        ]
       );
       created.push({ id: Number(result.insertId), item });
 
       // Update price in ItemsRegistry
       await conn.query(
-        "UPDATE ItemsRegistry SET wPrice = ?, rPrice = ? WHERE item = ?",
+        "UPDATE ItemsRegistry SET WPrice = ?, RPrice = ? WHERE item = ?",
         [parseFloat(wPrice) || 0, parseFloat(rPrice) || 0, item]
       );
     }
