@@ -506,3 +506,57 @@ select.form-control {
 .tree-leaf-icon { font-size: 0.55rem; width: 0.85rem; text-align: center; color: var(--accent-primary); }
 .tree-leaf { color: var(--text-secondary); }
 .tree-leaf:hover { color: var(--accent-light); }
+
+/* ─── Print Utilities ───────────────────────────── */
+.print-only { display: none; }
+
+@media print {
+  body { background: #fff !important; color: #000 !important; font-family: Arial, sans-serif !important; }
+  .erp-sidebar, .erp-topbar, .no-print { display: none !important; }
+  .print-only { display: block !important; }
+  .erp-main { margin-left: 0 !important; padding: 0 !important; }
+  .card { box-shadow: none !important; border: 1px solid #ddd !important; background: #fff !important; }
+  @page { size: A4; margin: 12mm 10mm; }
+}
+
+/* Print document layout helpers */
+.print-wrapper { max-width: 800px; margin: 0 auto; padding: 1rem; }
+.print-header {
+  text-align: center; margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem; border-bottom: 2px solid #333;
+}
+.print-header h1 { font-size: 1.25rem; margin: 0; color: #111; }
+.print-header p { font-size: 0.8rem; color: #555; margin: 0.25rem 0 0; }
+.print-meta {
+  display: flex; justify-content: space-between;
+  font-size: 0.82rem; margin-bottom: 1rem; color: #333;
+}
+.print-meta-block { line-height: 1.6; }
+.print-meta-block strong { display: block; font-size: 0.7rem; text-transform: uppercase; color: #888; }
+.print-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; margin-bottom: 1rem; }
+.print-table th { background: #f3f4f6; border: 1px solid #d1d5db; padding: 0.45rem 0.5rem; text-align: left; }
+.print-table td { border: 1px solid #e5e7eb; padding: 0.4rem 0.5rem; }
+.print-table tfoot td { font-weight: 700; border-top: 2px solid #d1d5db; background: #f9fafb; }
+.print-totals {
+  display: flex; justify-content: flex-end; margin-bottom: 1.25rem;
+}
+.print-totals-grid { display: grid; grid-template-columns: 180px 120px; gap: 0.25rem 0; font-size: 0.82rem; }
+.print-totals-grid .label { color: #555; }
+.print-totals-grid .value { text-align: right; font-weight: 600; }
+.print-totals-grid .grand .label,
+.print-totals-grid .grand .value { font-size: 0.95rem; font-weight: 700; border-top: 1px solid #ccc; padding-top: 0.25rem; }
+.print-in-words { font-size: 0.78rem; color: #444; padding: 0.5rem 0.75rem; background: #f9fafb; border-left: 3px solid #6366f1; margin-bottom: 1rem; }
+.print-signatures {
+  display: flex; justify-content: space-between; margin-top: 2.5rem;
+}
+.print-signatures div { text-align: center; min-width: 140px; }
+.print-signatures div span { display: block; border-top: 1px solid #333; padding-top: 0.4rem; font-size: 0.75rem; color: #555; }
+
+/* Label sheet (barcode printing) */
+.label-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 4px; }
+.label-cell { border: 1px dashed #ccc; padding: 6px 4px; text-align: center; font-size: 9px; break-inside: avoid; }
+.label-cell svg { max-width: 100%; height: auto; }
+@media print {
+  .label-grid { grid-template-columns: repeat(3,1fr); }
+  .label-cell { border-color: #999; }
+}

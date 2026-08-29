@@ -8,15 +8,25 @@ export async function GET(request) {
 
   const { searchParams } = new URL(request.url);
   const q = searchParams.get("q") || "";
+  const barcode = searchParams.get("barcode");
+
+  // Barcode scan lookup — returns single item or null
+  if (barcode) {
+    const rows = await pool.query(
+      "SELECT * FROM ItemsRegistry WHERE Barcode = ? LIMIT 1",
+      [barcode.trim()]
+    );
+    return NextResponse.json(rows[0] || null);
+  }
 
   let rows;
   if (q) {
     rows = await pool.query(
-      "SELECT * FROM ItemsRegistry WHERE item LIKE ? OR GenericName LIKE ? OR CompanyName LIKE ? ORDER BY item ASC",
+      "SELECT SNo, item, GenericName, pack, WPrice, RPrice, CompanyName, Barcode, BarcodeType FROM ItemsRegistry WHERE item LIKE ? OR GenericName LIKE ? OR CompanyName LIKE ? ORDER BY item ASC",
       [`%${q}%`, `%${q}%`, `%${q}%`]
     );
   } else {
-    rows = await pool.query("SELECT * FROM ItemsRegistry ORDER BY item ASC");
+    rows = await pool.query("SELECT SNo, item, GenericName, pack, WPrice, RPrice, CompanyName, Barcode, BarcodeType FROM ItemsRegistry ORDER BY item ASC");
   }
 
   return NextResponse.json(rows);
@@ -53,7 +63,14 @@ export async function POST(request) {
     ]
   );
 
-  return NextResponse.json({ id: Number(result.insertId), item: item.trim() }, { status: 201 });
+  const newSNo = Number(result.insertId);
+  const barcodeValue = `OAS-${String(newSNo).padStart(4, "0")}`;
+  await pool.query(
+    "UPDATE ItemsRegistry SET Barcode = ?, BarcodeType = 'CODE128' WHERE SNo = ?",
+    [barcodeValue, newSNo]
+  );
+
+  return NextResponse.json({ id: newSNo, item: item.trim(), barcode: barcodeValue }, { status: 201 });
 }
 
 export async function PUT(request) {

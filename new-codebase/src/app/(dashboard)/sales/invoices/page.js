@@ -74,7 +74,7 @@ export default function InvoicesPage() {
             <thead>
               <tr>
                 <th>Inv #</th><th>Customer</th><th>Items</th>
-                <th>Discount</th><th>VAT</th><th>Net Amount</th><th>Date</th><th>By</th>
+                <th>Discount</th><th>VAT</th><th>Net Amount</th><th>Date</th><th>By</th><th></th>
               </tr>
             </thead>
             <tbody>
@@ -93,6 +93,13 @@ export default function InvoicesPage() {
                     <td style={{ fontWeight: 600 }}>{formatCurrency(inv._sum?.netAmount ?? 0)} SDG</td>
                     <td style={{ color: "var(--text-muted)" }}>{new Date(inv.transDate).toLocaleDateString()}</td>
                     <td style={{ color: "var(--text-secondary)" }}>{inv.employee || "—"}</td>
+                    <td>
+                      <Link href={`/sales/invoices/${inv.invNo}/print?year=${year}`} target="_blank"
+                        style={{ fontSize: "0.8rem", color: "var(--accent-light)", textDecoration: "none" }}
+                        title="Print invoice">
+                        🖨
+                      </Link>
+                    </td>
                   </tr>
                 ))
               )}
